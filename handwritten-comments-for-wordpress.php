@@ -12,7 +12,6 @@ Author URI: http://dev.myscript.com
 define('myscript_iframe_BASENAME', plugin_basename(__FILE__));
 define('myscript_iframe_DIR_URL', plugins_url('', myscript_iframe_BASENAME));
 
-
  // Javascript and CSS files: jQuery, Bower component (myscript techno), plugin jquery and plugin css rules
 function myscript_method_iframe() {
 	wp_enqueue_script( 'jquery' );
@@ -28,7 +27,6 @@ function myscript_method_iframe() {
 }
 
 add_action( 'wp_enqueue_scripts', 'myscript_method_iframe' );
-
  
  // Create shortcode [MyScriptInput] 
 add_shortcode('MyScriptInput','MyScriptInput'); 

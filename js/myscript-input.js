@@ -117,6 +117,4 @@ jQuery(document).ready(function($) {
 		$('.MyScriptLanguages').toggle();
     });
 	
-	
-	
 });

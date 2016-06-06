@@ -1,4 +1,5 @@
 <?php
+
 // available languages
 $main_language = array(
     'af_ZA' => 'Afrikaans – South Africa',

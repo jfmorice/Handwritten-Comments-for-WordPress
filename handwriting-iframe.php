@@ -21,10 +21,8 @@ if (isset($_SERVER['HTTPS'])) {
 	$Protocol = 'http';
 }
 
-
 $url = $Protocol."://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 $url = strstr($url, '/handwriting-iframe.php', true); 
-
 
 ?>
     <script src="<?php echo $url ?>/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
