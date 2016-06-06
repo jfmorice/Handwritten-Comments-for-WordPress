@@ -35,7 +35,7 @@ myscript-text-web is a web component that can be used in every web application (
 
 ## Start using myscript-text-web
 
-1. Create an account on the [Developer Portal](https://dev.myscript.com/), which will allow you to generate an application key and HMAC key.  
+1. Create an account on the [Developer portal](https://dev.myscript.com/), which will allow you to generate an application key and HMAC key.  
 
 2. Import Web Components' polyfill
 

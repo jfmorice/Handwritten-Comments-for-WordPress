@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 	var auto_refresh = setInterval(
 		function ()
 		{
-			console.log('test');
+			//console.log('test');
 
 			// Error management
 			var RetourJson = $('#IframeMyScript').contents().find("#label").html();
@@ -115,6 +115,8 @@ jQuery(document).ready(function($) {
 		$('.MyScriptLanguages img').removeClass('MyScriptHidden');
 		$('.'+ NextLanguage).addClass('MyScriptHidden');
 		$('.MyScriptLanguages').toggle();
-    });	
+    });
+	
+	
 	
 });

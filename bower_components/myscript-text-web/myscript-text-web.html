@@ -28,7 +28,7 @@ See a live demo [here](demo/index.html)
 <dom-module id="myscript-text-web">
     <link rel="import" type="css" href="myscript-text-web.css">
     <template>
-        <div class="resultField" flex hidden="[[hideresult]]" id="MyScriptResult">[[firstcandidate]]</div>
+        <div class="resultField" flex hidden="[[hideresult]]" id="MyScriptResult" style="font-family:Source Sans Pro; height:43px">[[firstcandidate]]</div>
         <div class="horizontal layout buttons" hidden="[[hidebuttons]]">
             <paper-fab class="delete" mini icon="delete" title="delete" on-tap="delete"></paper-fab>
             <paper-fab class="undo" mini icon="undo" title="undo" on-tap="undo" disabled="{{ !canundo }}"></paper-fab>

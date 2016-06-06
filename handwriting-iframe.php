@@ -34,16 +34,6 @@ $url = strstr($url, '/handwriting-iframe.php', true);
 paper-toast{
 	display:none;
 }
-
-#MyScriptResult.myscript-text-web {
-font-family: Source Sans Pro; font-size:x-large;height: 40px; line-height: -moz-block-height;
-}
-@media screen and (max-width: 440px) {
-	#MyScriptResult.myscript-text-web {
-		height: 25px;font-size:large;padding-top: 18px;text-align: left; line-height: -moz-block-height;
-	}
-}
-
 </style>
 <body>
 <myscript-text-web id='text-input' applicationkey='<?php echo $applicationkey ?>' hmackey='<?php echo $hmackey ?>' language='<?php echo $language ?>'>   </myscript-text-web>
